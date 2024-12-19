@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debbie's Coming</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fullscreen layout */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+        }
+
+        /* Text style */
+        h1 {
+            font-size: 5rem;
+            font-weight: bold;
+            color: pink;
+            animation: colorShift 3s ease-in-out infinite;
+        }
+
+        /* Color animation */
+        @keyframes colorShift {
+            0% {
+                color: pink;
+            }
+            50% {
+                color: purple;
+            }
+            100% {
+                color: pink;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>DEBBIE'S COMING</h1>
+</body>
+</html>
